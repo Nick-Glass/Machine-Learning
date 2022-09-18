@@ -210,8 +210,6 @@ image_read("overlay.png") %>%
 
 ![image](https://user-images.githubusercontent.com/113626253/190925578-6930ae70-ad51-4bec-8c5a-5ee2c28bc815.png)
 
-![image](https://user-images.githubusercontent.com/113626253/190925587-13e48de3-7610-42e7-be64-03a2ea9e49c5.png)
-
 #### Analysis:
 
 Looking at this image we can tell it is of a frog. This model identifies the image as a frog by looking at the area around its eye and the space between its legs. I thought this was really cool to see how big of an impact the indentation of the frogs eye had on the classification posses.
@@ -287,8 +285,6 @@ image_read("overlay.png") %>%
 
 ![image](https://user-images.githubusercontent.com/113626253/190925674-9c70d217-6f69-4e01-b54c-4db6dbe58909.png)
 
-![image](https://user-images.githubusercontent.com/113626253/190925684-46cb03d0-6dd0-43d7-8945-becd438652f3.png)
-
 #### Analysis:
 
 The second case I wanted to look at was of a deer standing in the woods. I thought it was interesting and maybe troubling that the model used the woods next to the deer to categorize the image. I feel like this case might not have the best results since the model focused on the background of the image.
@@ -363,8 +359,6 @@ image_read("overlay.png") %>%
   plot()
 
 ![image](https://user-images.githubusercontent.com/113626253/190925760-410cf72c-3d08-4863-9776-cbddc1ff067c.png)
-
-![image](https://user-images.githubusercontent.com/113626253/190925769-442d380f-927f-4ff7-abb3-63aead62b84a.png)
 
 #### Analysis:
 
@@ -508,8 +502,6 @@ boxplot(prob_to_plot)
 
 ![image](https://user-images.githubusercontent.com/113626253/190926031-87f60146-d45b-4e02-ba78-2c93f90231ea.png)
 
-![image](https://user-images.githubusercontent.com/113626253/190926036-52dd9938-2ac6-4da0-aa83-757504925dfd.png)
-
 #### Look at Case #24
 par(mfrow=c(1,2))
 
@@ -521,8 +513,6 @@ prob_to_plot <- t(x_test_decoded[24,,])
 boxplot(prob_to_plot)
 
 ![image](https://user-images.githubusercontent.com/113626253/190926048-476ec351-3b4d-46ff-b6f3-49d2e6139e77.png)
-
-![image](https://user-images.githubusercontent.com/113626253/190926055-2840537a-10b1-4eb2-bf89-ffeb1c4f8131.png)
 
 #### Analysis:
 
@@ -664,8 +654,6 @@ boxplot(prob_to_plot)
 
 ![image](https://user-images.githubusercontent.com/113626253/190926324-a4981c79-1d9f-4b49-8e9a-54749282209a.png)
 
-![image](https://user-images.githubusercontent.com/113626253/190926327-e8ddb729-d790-4341-85e0-05e32ecd2e15.png)
-
 par(mfrow=c(1,2))
 
 #### Look at Case #17
@@ -677,8 +665,6 @@ prob_to_plot <- t(testPredict[17,,])
 boxplot(prob_to_plot)
 
 ![image](https://user-images.githubusercontent.com/113626253/190926349-8a2162b4-5698-4b5a-bd1a-3f3870c4988c.png)
-
-![image](https://user-images.githubusercontent.com/113626253/190926355-c8f41715-6cee-42c3-9dbb-fc91f36ede3d.png)
 
 #### Analysis:
 
